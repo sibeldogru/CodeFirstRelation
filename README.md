@@ -54,18 +54,5 @@ Aşağıdaki bağlantı dizesi `appsettings.json` dosyasında tanımlanmıştır
   "DefaultConnection": "server=localhost; database=PatikaCodeFirstDb2; Trusted_Connection=true; TrustServerCertificate=true"
 }
 
-## 🧩 Proje Yapısı
 
-
-CodeFirstRelation_Pratik/
-│
-├── Context/
-│   └── PatikaSecondDbContext.cs
-│
-├── Entities/
-│   ├── BaseEntity.cs
-│   ├── UserEntity.cs
-│   └── PostEntity.cs
-│
-├── appsettings.json
 └── Program.cs
