@@ -55,4 +55,4 @@ Aşağıdaki bağlantı dizesi `appsettings.json` dosyasında tanımlanmıştır
 }
 
 
-└── Program.cs
+
