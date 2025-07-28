@@ -12,9 +12,9 @@ public class PatikaSecondDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<UserEntity>()
-        .HasMany(u => u.Posts)
-        .WithOne(p => p.User)
-        .HasForeignKey(p => p.UserId);
+         .HasOne(p => p.User)
+         .WithMany(p => p.Posts)
+         .HasForeignKey(p => p.UserId);
         base.OnModelCreating(modelBuilder);
     }
 
